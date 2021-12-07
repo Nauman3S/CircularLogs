@@ -6,7 +6,7 @@ void writeToFile(char *data)
 {
     FILE *filePtr;
     char filename[30];
-    sprintf(filename, "log_%d.txt", clock()); //use clocktime as a unique file name
+    sprintf(filename, "logs/log_%d.txt", clock()); //use clocktime as a unique file name
 
     filePtr = fopen(filename, "w");
     if (filePtr == NULL)
