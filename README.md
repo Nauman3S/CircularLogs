@@ -80,6 +80,9 @@ Once the LogEntriesStr fills out completely, the program starts overwriting the 
 4.  cstring(for memcpy)
 5.  time(for getting system clock time in ms)
 
+## ⛏️ Demo <a name = "demo"></a>
+
+A demo video is also provided in the root directory of this repository. The demo video shows the working of the program and how log files are generated.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
